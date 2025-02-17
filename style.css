@@ -1,0 +1,80 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+ul.lista_navegacao, li, a{
+  display: flex;
+  text-decoration: none;
+  padding: 7px;
+  color: #DDE2F6;
+  
+}
+
+ul.lista_navegacao li a:hover{
+  background-color: #B3B0B1;
+}
+
+ul.lista_navegacao{
+  background-color: #5B6D80;
+  text-align: center;
+  width: 100vh;
+}
+main{
+  display: flex;
+}
+#nome{
+  text-align: center;
+}
+.local{
+  margin-left: 15px;
+}
+
+.card {
+  width: 700px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_contato{
+  width: 700px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+
+}
+
+#texto_academico{
+  margin-left: 15px;  
+}
+.contato1{
+  font-weight: bold;
+}
+
+.titulo_imagens{
+  font-weight: bold;
+}
+
+img{
+  width: 250px;
+}
+.imagens{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+
+
